@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4F52A2E1AD6EBBD000187DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F52A2D1AD6EBBD000187DE /* main.m */; };
+		A4F52A311AD6EBBD000187DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F52A301AD6EBBD000187DE /* AppDelegate.m */; };
+		A4F52A341AD6EBBD000187DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F52A331AD6EBBD000187DE /* ViewController.m */; };
+		A4F52A371AD6EBBD000187DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F52A351AD6EBBD000187DE /* Main.storyboard */; };
+		A4F52A391AD6EBBD000187DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F52A381AD6EBBD000187DE /* Images.xcassets */; };
+		A4F52A3C1AD6EBBD000187DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F52A3A1AD6EBBD000187DE /* LaunchScreen.xib */; };
+		A4F52A481AD6EBBD000187DE /* GuitarTunerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F52A471AD6EBBD000187DE /* GuitarTunerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4F52A421AD6EBBD000187DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F52A201AD6EBBD000187DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4F52A271AD6EBBD000187DE;
+			remoteInfo = GuitarTuner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4F52A281AD6EBBD000187DE /* GuitarTuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarTuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F52A2C1AD6EBBD000187DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F52A2D1AD6EBBD000187DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4F52A2F1AD6EBBD000187DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4F52A301AD6EBBD000187DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4F52A321AD6EBBD000187DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4F52A331AD6EBBD000187DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4F52A361AD6EBBD000187DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4F52A381AD6EBBD000187DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A4F52A3B1AD6EBBD000187DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A4F52A411AD6EBBD000187DE /* GuitarTunerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuitarTunerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F52A461AD6EBBD000187DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F52A471AD6EBBD000187DE /* GuitarTunerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuitarTunerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4F52A251AD6EBBD000187DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F52A3E1AD6EBBD000187DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4F52A1F1AD6EBBD000187DE = {
+			isa = PBXGroup;
+			children = (
+				A4F52A2A1AD6EBBD000187DE /* GuitarTuner */,
+				A4F52A441AD6EBBD000187DE /* GuitarTunerTests */,
+				A4F52A291AD6EBBD000187DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4F52A291AD6EBBD000187DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4F52A281AD6EBBD000187DE /* GuitarTuner.app */,
+				A4F52A411AD6EBBD000187DE /* GuitarTunerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F52A2A1AD6EBBD000187DE /* GuitarTuner */ = {
+			isa = PBXGroup;
+			children = (
+				A4F52A2F1AD6EBBD000187DE /* AppDelegate.h */,
+				A4F52A301AD6EBBD000187DE /* AppDelegate.m */,
+				A4F52A321AD6EBBD000187DE /* ViewController.h */,
+				A4F52A331AD6EBBD000187DE /* ViewController.m */,
+				A4F52A351AD6EBBD000187DE /* Main.storyboard */,
+				A4F52A381AD6EBBD000187DE /* Images.xcassets */,
+				A4F52A3A1AD6EBBD000187DE /* LaunchScreen.xib */,
+				A4F52A2B1AD6EBBD000187DE /* Supporting Files */,
+			);
+			path = GuitarTuner;
+			sourceTree = "<group>";
+		};
+		A4F52A2B1AD6EBBD000187DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4F52A2C1AD6EBBD000187DE /* Info.plist */,
+				A4F52A2D1AD6EBBD000187DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4F52A441AD6EBBD000187DE /* GuitarTunerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4F52A471AD6EBBD000187DE /* GuitarTunerTests.m */,
+				A4F52A451AD6EBBD000187DE /* Supporting Files */,
+			);
+			path = GuitarTunerTests;
+			sourceTree = "<group>";
+		};
+		A4F52A451AD6EBBD000187DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4F52A461AD6EBBD000187DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4F52A271AD6EBBD000187DE /* GuitarTuner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F52A4B1AD6EBBD000187DE /* Build configuration list for PBXNativeTarget "GuitarTuner" */;
+			buildPhases = (
+				A4F52A241AD6EBBD000187DE /* Sources */,
+				A4F52A251AD6EBBD000187DE /* Frameworks */,
+				A4F52A261AD6EBBD000187DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuitarTuner;
+			productName = GuitarTuner;
+			productReference = A4F52A281AD6EBBD000187DE /* GuitarTuner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4F52A401AD6EBBD000187DE /* GuitarTunerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F52A4E1AD6EBBD000187DE /* Build configuration list for PBXNativeTarget "GuitarTunerTests" */;
+			buildPhases = (
+				A4F52A3D1AD6EBBD000187DE /* Sources */,
+				A4F52A3E1AD6EBBD000187DE /* Frameworks */,
+				A4F52A3F1AD6EBBD000187DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4F52A431AD6EBBD000187DE /* PBXTargetDependency */,
+			);
+			name = GuitarTunerTests;
+			productName = GuitarTunerTests;
+			productReference = A4F52A411AD6EBBD000187DE /* GuitarTunerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4F52A201AD6EBBD000187DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Yuhui Chen";
+				TargetAttributes = {
+					A4F52A271AD6EBBD000187DE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A4F52A401AD6EBBD000187DE = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A4F52A271AD6EBBD000187DE;
+					};
+				};
+			};
+			buildConfigurationList = A4F52A231AD6EBBD000187DE /* Build configuration list for PBXProject "GuitarTuner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4F52A1F1AD6EBBD000187DE;
+			productRefGroup = A4F52A291AD6EBBD000187DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4F52A271AD6EBBD000187DE /* GuitarTuner */,
+				A4F52A401AD6EBBD000187DE /* GuitarTunerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4F52A261AD6EBBD000187DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F52A371AD6EBBD000187DE /* Main.storyboard in Resources */,
+				A4F52A3C1AD6EBBD000187DE /* LaunchScreen.xib in Resources */,
+				A4F52A391AD6EBBD000187DE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F52A3F1AD6EBBD000187DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4F52A241AD6EBBD000187DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F52A341AD6EBBD000187DE /* ViewController.m in Sources */,
+				A4F52A311AD6EBBD000187DE /* AppDelegate.m in Sources */,
+				A4F52A2E1AD6EBBD000187DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F52A3D1AD6EBBD000187DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F52A481AD6EBBD000187DE /* GuitarTunerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4F52A431AD6EBBD000187DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4F52A271AD6EBBD000187DE /* GuitarTuner */;
+			targetProxy = A4F52A421AD6EBBD000187DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4F52A351AD6EBBD000187DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F52A361AD6EBBD000187DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4F52A3A1AD6EBBD000187DE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F52A3B1AD6EBBD000187DE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4F52A491AD6EBBD000187DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4F52A4A1AD6EBBD000187DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4F52A4C1AD6EBBD000187DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuitarTuner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4F52A4D1AD6EBBD000187DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuitarTuner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4F52A4F1AD6EBBD000187DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuitarTunerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuitarTuner.app/GuitarTuner";
+			};
+			name = Debug;
+		};
+		A4F52A501AD6EBBD000187DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuitarTunerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuitarTuner.app/GuitarTuner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4F52A231AD6EBBD000187DE /* Build configuration list for PBXProject "GuitarTuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F52A491AD6EBBD000187DE /* Debug */,
+				A4F52A4A1AD6EBBD000187DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F52A4B1AD6EBBD000187DE /* Build configuration list for PBXNativeTarget "GuitarTuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F52A4C1AD6EBBD000187DE /* Debug */,
+				A4F52A4D1AD6EBBD000187DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4F52A4E1AD6EBBD000187DE /* Build configuration list for PBXNativeTarget "GuitarTunerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F52A4F1AD6EBBD000187DE /* Debug */,
+				A4F52A501AD6EBBD000187DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4F52A201AD6EBBD000187DE /* Project object */;
+}
